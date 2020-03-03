@@ -1,4 +1,4 @@
-# pureCookie
+# pure-cookie
 
 Ett plugin för att hantera cookie popups med egen text
 
