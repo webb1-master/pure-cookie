@@ -7,8 +7,8 @@ Ett plugin för att hantera cookie popups med egen text
 ### Standard config
 
 - Skapa en div längst upp i body med id:et pure-cookie
-- Länka till pure-cookie.css filen i head
-- Länka till pure-cookie.js filen längst ner i body
+- Länka till pure-cookie.min.css filen i head
+- Länka till pure-cookie.min.js filen längst ner i body
 
 ```html
 <!DOCTYPE html>
