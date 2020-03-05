@@ -1,0 +1,29 @@
+{
+  "name": "pure-cookie-repo",
+  "version": "1.0.0",
+  "description": "Ett plugin för att hantera cookie popups med egen text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webb1-master/pure-cookie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webb1-master/pure-cookie/issues"
+  },
+  "homepage": "https://github.com/webb1-master/pure-cookie#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.0.2",
+    "imagemin-webp": "^5.1.0",
+    "node-sass": "^4.13.1"
+  }
+}
