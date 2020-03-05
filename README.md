@@ -1,4 +1,4 @@
-# pureCookie
+# pure-cookie
 
 Ett plugin för att hantera cookie popups med egen text
 
@@ -7,8 +7,8 @@ Ett plugin för att hantera cookie popups med egen text
 ### Standard config
 
 - Skapa en div längst upp i body med id:et pure-cookie
-- Länka till pure-cookie.css filen i head
-- Länka till pure-cookie.js filen längst ner i body
+- Länka till pure-cookie.min.css filen i head
+- Länka till pure-cookie.min.js filen längst ner i body
 
 ```html
 <!DOCTYPE html>
@@ -16,14 +16,14 @@ Ett plugin för att hantera cookie popups med egen text
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="pure-cookie.css" />
+    <link rel="stylesheet" href="path/to/pure-cookie.min.css" />
     <title>pureCookie</title>
   </head>
   <body>
     <div id="pure-cookie"></div>
 
     ...
-    <script src="path/to/pure-cookie.js"></script>
+    <script src="path/to/pure-cookie.min.js"></script>
   </body>
 </html>
 ```
