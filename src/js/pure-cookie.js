@@ -1,6 +1,6 @@
 (function() {
   document.addEventListener("DOMContentLoaded", () => {
-    if (!localStorage.getItem("cookiePopupConfirm")) {
+    if (!localStorage.getItem("cookiePopupConfirm") || localStorage.getItem("cookiePopConfirm") == false) {
       // Cookie popup element
       const cookieEl = document.querySelector("#pure-cookie");
       const cookieText = cookieEl.innerText

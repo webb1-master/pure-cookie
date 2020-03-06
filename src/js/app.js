@@ -22,7 +22,7 @@ function smallNav(element) {
 
   requestAnimationFrame( () => {
     element.style.height = "40px";
-    
+
     requestAnimationFrame( () => {
       element.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
     })

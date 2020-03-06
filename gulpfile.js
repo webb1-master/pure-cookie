@@ -2,6 +2,7 @@ const gulp = require("gulp");
 const sass = require("gulp-sass");
 const del = require("del");
 const browserSync = require("browser-sync");
+const minify = require("gulp-minify");
 
 // Imagemin and plugins
 const imagemin = require("gulp-imagemin");
@@ -39,7 +40,11 @@ function css(cb) {
 }
 
 function js(cb) {
-  gulp.src(`${origin}/js/**/*.js`).pipe(gulp.dest(`${destination}/js`));
+  gulp.src(`${origin}/js/**/*.js`)
+  .pipe(minify({
+    noSource: true
+  }))
+  .pipe(gulp.dest(`${destination}/js`));
 
   cb();
 }
