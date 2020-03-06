@@ -13,9 +13,6 @@ const destination = "dist";
 
 sass.compiler = require("node-sass");
 
-const ftpConfig = require("./config.json");
-
-console.log(ftpConfig);
 
 async function clean(cb) {
   await del(destination);
