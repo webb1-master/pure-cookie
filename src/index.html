@@ -1,14 +1,111 @@
 <!DOCTYPE html>
-<html lang="sv-SE">
+<html lang="en-SE">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/pure-cookie.css" />
-    <title>pureCookie</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="A website for testing purposes"/>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet"> 
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Hello There</title>
   </head>
   <body>
-    <div id="pure-cookie">Välkommen till min sida. Här använder vi cookies</div>
+    <main id="wrapper">
+      <header>
+        <nav class="nav-elements">
+          <ul class="page-nav page-nav-desktop">
+            <li class="nav-item logo">
+              <h2>FO<span class="to">TO</span></h2>
+            </li>
+            <li class="nav-item">Home</li>
+            <li class="nav-item">Gallery</li>
+            <li class="nav-item">Hire me</li>
+            <li class="nav-item">About</li>
+            <li class="nav-item">Contact</li>
+          </ul>
+          <ul class="page-nav page-nav-mobile">
+            <li class="nav-item"><img src="assets/img/optimized/svg/burger.svg" alt="Hamburger menu"></li>
+            <li class="nav-item logo">
+              <h2>FO<span class="to">TO</span></h2>
+            </li>
+          </ul>
+        </nav>
 
-    <script src="js/pure-cookie.js"></script>
+        <section class="feature-section">
+          <div class="feature-content">
+            <div class="feature-overlay">
+              <h1>Taking an image, freezing a moment,<br> reveals how rich reality truly is</h1>
+            </div>
+            <div class="filter"></div>
+            <video autoplay muted loop class="feature-video">
+                <source src="assets/img/optimized/webm/bg.webm" type="video/webm">
+                <source src="assets/img/optimized/mp/bg.mp4" type="video/mp4">
+            </video>
+          </div>
+        </section>
+
+      </header>
+
+      <section class="gallery-section">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-section-content">
+          <div class="img-container" id="img-container-1"><img src="assets/img/optimized/webp/img-1.jpg" alt="Girl behind door"></div>
+          <div class="img-container" id="img-container-2"><img src="assets/img/optimized/webp/img-2.jpg" alt="Garage door"></div>
+          <div class="img-container" id="img-container-3"><img src="assets/img/optimized/webp/img-3.jpg" alt="Stairs"></div>
+          <div class="img-container" id="img-container-4"><img src="assets/img/optimized/webp/img-4.jpg" alt="Man in front of waterfall"></div>
+          <div class="img-container" id="img-container-5"><img src="assets/img/optimized/webp/img-5.jpg" alt="Appartments"></div>
+          <div class="img-container" id="img-container-6"><img src="assets/img/optimized/webp/img-6.jpg" alt="Books"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+
+      <ul>
+        <li>Products</li>
+        <li>Templates</li>
+        <li> Explore </li>
+        <li> Features </li>
+        <li> Website Builder </li>
+        <li> My Sites </li>
+        <li> Premium Plans </li>
+        <li> Logo Maker </li>
+        <li> Start a Blog </li>
+        <li> App Market </li>
+        <li> Domains </li>
+        <li> Business Email </li>
+        <li> Web Hosting </li>
+      </ul> 
+
+      <ul>
+        <li>Company</li>
+        <li>Templates</li>
+        <li>Explore</li>
+        <li>Features</li>
+        <li>Website Builder</li>
+        <li>My Sites</li>
+        <li>Premium Plans</li>
+        <li>Logo Maker</li>
+        <li>Start a Blog</li>
+        <li>App Market</li>
+        <li>Domains</li>
+        <li>Business Email</li>
+        <li>Web Hosting</li>
+      </ul> 
+
+      <ul>
+        <li> <h2>FO<span class="to">TO</span></h2> </li>
+        <li> <p id="footer-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorem commodi dicta, ab quidem autem alias corrupti dolorum tempore est unde distinctio ducimus blanditiis odit saepe perspiciatis ex! Distinctio nobis nesciunt veritatis magnam consequatur ullam quasi beatae, quisquam accusamus illo.</p> </li>
+      </ul>
+
+    </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
