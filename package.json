@@ -25,6 +25,6 @@
     "gulp-minify": "^3.1.0",
     "gulp-sass": "^4.0.2",
     "imagemin-webp": "^5.1.0",
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.14.0"
   }
 }
